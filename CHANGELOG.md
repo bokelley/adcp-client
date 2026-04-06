@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.22.0
+
+### Minor Changes
+
+- ee1753d: Send adcp_major_version on every request per adcontextprotocol/adcp#1959. Sellers can validate the declared version against their supported range and return VERSION_UNSUPPORTED on mismatch.
+
 ## 4.21.0
 
 ### Minor Changes
